@@ -17,8 +17,8 @@
     --title-color: hsl(var(--hue-color), 8%, 15%);
     --text-color: hsl(var(--hue-color), 8%, 45%);
     --text-color-light: hsl(var(--hue-color), 8%, 65%);
-    --input-color: hsl(var(--hue-color), 70%, 99%); /*99% muda a cor do input */
-    --body-color: hsl(var(--hue-color), 60%, 95%); /*96% original deixa a cor meio sombreada, 99 para deixar a cor branca */
+    --input-color: hsl(var(--hue-color), 70%, 96%); /*99% muda a cor do input */
+    --body-color: hsl(var(--hue-color), 60%, 99%); /*96% original deixa a cor meio sombreada, 99 para deixar a cor branca */
     --container-color: #FFF;
 
     /*========== Font and typography ==========*/
