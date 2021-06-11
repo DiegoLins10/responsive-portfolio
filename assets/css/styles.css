@@ -886,7 +886,74 @@ project__title{
 }
 
 /*==================== FOOTER ====================*/
+.footer{
+    padding-top: 2rem;
+}
 
+.footer__container{
+    row-gap: 3.5rem;
+}
+
+.footer__bg{
+    background-color: var(--first-color-second);
+    padding: 2rem 0 3rem;
+}
+
+.footer__title{
+    font-size: var(--h1-font-size);
+    margin-bottom: var(--mb-0-25);
+}
+
+.footer__subtitle{
+    font-size: var(--small-font-size);
+}
+
+.footer__links{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+.footer__link:hover{
+    color: var(--first-color-lighter);
+}
+
+.footer__social{
+    font-size: 1.25rem;
+    margin-right: var(--mb-1-5);
+}
+
+.footer__social:hover{
+    color: var(--first-color-lighter);
+}
+
+.footer__copy{
+    font-size: 12px;
+    text-align: center;
+    color: #FFF;
+    margin-top: var(--mb-3);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer__title,
+.footer__subtitle,
+.footer__link,
+.footer__social
+{
+    color: #FFF;
+}
+
+.footer__me{
+    font-size: var(--smaller-font-size);
+    text-align: center;
+    color: #000;
+    margin-top: var(--mb-3);
+    font-style: normal;
+}
+
+.footer__me:hover{
+    color: var(--first-color-lighter);
+}
 
 /*========== SCROLL UP ==========*/
 
