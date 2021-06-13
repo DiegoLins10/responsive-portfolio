@@ -20,6 +20,8 @@
     --input-color: hsl(var(--hue-color), 70%, 99%); /*99% muda a cor do input */
     --body-color: hsl(var(--hue-color), 60%, 96%); /*96% original deixa a cor meio sombreada, 99 para deixar a cor branca */
     --container-color: #FFF;
+    --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
+    --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 
     /*========== Font and typography ==========*/
     --body-font: 'Poppins', sans-serif;
@@ -68,10 +70,32 @@
 }
 
 /*========== Variables Dark theme ==========*/
-
+body.dark-theme{
+    /* HSL color mode */
+    --first-color-second: hsl(var(--hue-color), 30%, 8%) ;
+    --title-color: hsl(var(--hue-color), 8%, 95%);
+    --text-color: hsl(var(--hue-color), 8%, 75%);
+    --input-color: hsl(var(--hue-color), 29%, 16%); /*99% muda a cor do input */
+    --body-color: hsl(var(--hue-color), 28%, 12%); /*96% original deixa a cor meio sombreada, 99 para deixar a cor branca */
+    --container-color: hsl(var(--hue-color), 29%, 16%)
+}
 
 /*========== Button Dark/Light ==========*/
+.nav__btns{
+    display: flex;
+    align-items: center;
+}
 
+.change-theme{
+    font-size: 1.25rem;
+    color: var(--title-color);
+    margin-right: var(--mb-1);
+    cursor: pointer;
+}
+
+.change-theme:hover{
+    color: var(--first-color);
+}
 
 /*==================== BASE ====================*/
 *{
@@ -982,11 +1006,14 @@ project__title{
 /* Show scroll */
 .show-scroll{
     bottom: 5rem;
-    
 }
 
 /*========== SCROLL BAR ==========*/
-
+::-webkit-scrollbar{
+    width: .60rem;
+    background-color: var(--scroll-bar-color);
+    border-radius: .5rem;
+}
 
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
