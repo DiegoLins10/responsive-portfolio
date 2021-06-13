@@ -77,7 +77,9 @@ body.dark-theme{
     --text-color: hsl(var(--hue-color), 8%, 75%);
     --input-color: hsl(var(--hue-color), 29%, 16%); /*99% muda a cor do input */
     --body-color: hsl(var(--hue-color), 28%, 12%); /*96% original deixa a cor meio sombreada, 99 para deixar a cor branca */
-    --container-color: hsl(var(--hue-color), 29%, 16%)
+    --container-color: hsl(var(--hue-color), 29%, 16%);
+    --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
+    --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
 }
 
 /*========== Button Dark/Light ==========*/
@@ -1013,6 +1015,15 @@ project__title{
     width: .60rem;
     background-color: var(--scroll-bar-color);
     border-radius: .5rem;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--scroll-thumb-color);
+    border-radius: .5rem;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: var(--text-color-light);
 }
 
 /*==================== MEDIA QUERIES ====================*/
