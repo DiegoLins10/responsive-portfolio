@@ -1,6 +1,6 @@
 ## Projeto - Responsive portfolio Débora Cecília
 
-# Desenvolvido por
+# Desenvolvedor
 - Diego Fernandes Lins
 
 ### Objetivo
