@@ -189,3 +189,20 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+
+/*==================== SEND EMAIL ====================*/ 
+
+const Email = document.getElementById('theme-button')
+
+Email.send({
+    Host : "smtp.yourisp.com",
+    Username : "username",
+    Password : "password",
+    To : 'them@website.com',
+    From : "you@isp.com",
+    Subject : "This is the subject",
+    Body : "And this is the body"
+}).then(
+  message => alert(message)
+);

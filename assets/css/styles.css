@@ -136,6 +136,14 @@ img{
     height: auto;
 }
 
+button{
+    text-decoration: none;
+    height: 62px;
+    width: 167px;
+    cursor: pointer;
+}
+
+
 /*==================== REUSABLE CSS CLASSES ====================*/
 .section{
     padding: 2rem 0 4rem;
