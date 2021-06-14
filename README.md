@@ -20,6 +20,7 @@ Este projeto tem como objetivo desenvolver um portofolio website totalmente resp
 - Blob Generator: https://www.blobmaker.app/ Center image within blob X: horizontal, Y: vertical
 - HSL color mode: https://www.w3schools.com/colors/colors_hsl.asp
 - Remove the background from your image: https://www.remove.bg/
+- Static form para enviar o formulario: https://www.staticforms.xyz/
 
 
 
