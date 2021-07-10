@@ -22,7 +22,8 @@ Este projeto tem como objetivo desenvolver um portofolio website totalmente resp
 - Remove the background from your image: https://www.remove.bg/
 - Static form para enviar o formulario: https://www.staticforms.xyz/
 
-
+## Imagem do projeto
+![](https://github.com/DiegoLins10/Pokedex/blob/origin/pokedex2.png)
 
 
 
