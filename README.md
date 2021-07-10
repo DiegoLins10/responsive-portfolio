@@ -24,9 +24,9 @@ Este projeto tem como objetivo desenvolver um portofolio website totalmente resp
 
 ## Imagem do projeto
 
-- Light mode
+## Light mode
 ![](https://github.com/DiegoLins10/responsive-portfolio/blob/master/area1.png)
-- Dark mode
+## Dark mode
 ![](https://github.com/DiegoLins10/responsive-portfolio/blob/master/area2.png)
 
 
