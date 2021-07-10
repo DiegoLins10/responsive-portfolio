@@ -23,7 +23,7 @@ Este projeto tem como objetivo desenvolver um portofolio website totalmente resp
 - Static form para enviar o formulario: https://www.staticforms.xyz/
 
 ## Imagem do projeto
-![](https://github.com/DiegoLins10/Pokedex/blob/origin/pokedex2.png)
+![](https://github.com/DiegoLins10/responsive-portfolio/blob/master/area.png)
 
 
 
